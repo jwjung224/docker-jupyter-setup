@@ -18,5 +18,5 @@ Using it on OS X
     docker rm -f yourdockername
 10. Remove (Erase) one Docker image from the local machine =>
     docker rmi -f yourdockername
-10.2. (Option) Remove all images
+    (Option) Remove all images
     docker rmi $(docker images -a -q)
