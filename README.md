@@ -21,5 +21,5 @@ Based on OS X use
      docker rm $(docker ps -a -f status=exited -q)
 10. Remove(Erase) one Docker image from the local machine => <br />
     docker rmi -f yourdockername <br />
-     (Alternative) Remove(Erase) all images <br />
+     (Alternative) Remove(Erase) all images => <br />
      docker rmi $(docker images -a -q)
