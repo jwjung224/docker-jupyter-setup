@@ -18,6 +18,6 @@ Based on OS X use
 9. Stop the container when we are done =>
     docker rm -f yourdockername
 10. Remove (Erase) one Docker image from the local machine =>
-    docker rmi -f yourdockername
-    \n (Option) Remove all images
+    docker rmi -f yourdockername__
+     (Option) Remove all images
     docker rmi $(docker images -a -q)
