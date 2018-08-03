@@ -1,7 +1,7 @@
 # docker-jupyter-setup
 Dockerfile for Anaconda/Jupyter setup
 
-Using it on OS X
+Based on OS X use
 
 1. Download Dockerfile
 2. Create folder to store Dockerfile
