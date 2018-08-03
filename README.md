@@ -17,9 +17,9 @@ Based on OS X use
 8. Enter "root" for the password in the browser
 9. Stop the container when we are done => <br />
     docker rm -f yourdockername <br />
-     (Option) Stop all running containers => <br />
+     (Alternative) Stop all running containers => <br />
      docker rm $(docker ps -a -f status=exited -q)
-10. Remove (Erase) one Docker image from the local machine => <br />
+10. Remove(Erase) one Docker image from the local machine => <br />
     docker rmi -f yourdockername <br />
-     (Option) Remove all images <br />
+     (Alternative) Remove(Erase) all images <br />
      docker rmi $(docker images -a -q)
